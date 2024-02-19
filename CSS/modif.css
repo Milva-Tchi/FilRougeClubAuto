@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --Blanc: #FFFFFF;
+    --Jaune: #FAB637;
+    --Rouge: #FF4848;
+    --Orange: #CC6119;
+    --GrisClair: #ECEFF3;
+    --Noir: #232628;
+    --Bleu: #6C98E1;
+
+
+body{
+    
+}
+
+
+#Loc, #Tel{
+    width: 40px;
+    height: 40px;
+}
+
+#bloc3 img{
+    width: 20px;
+}
+    
+#Header1{
+    font-family: Montserrat;
+    background-color: var(--Noir);
+}
+
+#Header1>h2{
+    color: var(--Blanc);
+    font-weight: 700;
+}
+
+#Adr, #Tél, #Ouv, #Hor{
+    color: var(--Orange);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+#Av, #Cp{
+    color: var(--Blanc);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#Num{
+    color: var(--Blanc);
+    font-weight: bold;
+    font-size:large;
+}
+
+#Ouv1, #Hor1{
+    color: var(--Blanc);
+    font-weight: bold;
+    
+}
+
+#Ouv, #Hor{
+    letter-spacing: 1px;
+}
