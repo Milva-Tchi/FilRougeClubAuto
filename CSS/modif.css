@@ -15,20 +15,60 @@ body{
     
 }
 
-
-#Loc, #Tel{
-    width: 40px;
-    height: 40px;
-}
-
-#bloc3 img{
-    width: 20px;
-}
-    
 #Header1{
     font-family: Montserrat;
+    font-size: smaller;
     background-color: var(--Noir);
+    display: flex; /* Utilisation de Flexbox */ 
+    align-items:flex-start;
+    
+    
+    
 }
+
+p{
+    margin: 0;
+} 
+
+#bloc1, #bloc2, #bloc3, #bloc4{
+    margin-right: 20px; /* Espacement horizontal entre les éléments */
+    margin-top: 10px;
+}
+
+
+a h3 {
+    color: var(--Blanc);
+    font-weight: 600;
+    margin-right: 20px;
+} 
+
+#Loc, #Tel{
+    width: 28px;
+    height: 28px;
+    display: flex; /* Utilisation de Flexbox */
+    margin-top: 10px; 
+    margin-right: 5px;
+    
+}
+
+#bloc1 img {
+    align-self: center; /* Alignement vertical au centre */
+    margin-bottom: -1rem; /* Décalage vers le bas (ajustez selon vos besoins) */
+}
+
+#bloc2 img{
+    align-self: center; /* Alignement vertical au centre */
+    margin-bottom: -1rem; /* Décalage vers le bas (ajustez selon vos besoins) */
+}
+
+
+
+#bloc4 svg{
+    width: 30px;
+}
+    
+
+
 
 #Header1>h2{
     color: var(--Blanc);
@@ -39,28 +79,39 @@ body{
     color: var(--Orange);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: small;
-
+    font-size: xx-small;
+    
 }
 
 #Av, #Cp{
     color: var(--Blanc);
     text-transform: uppercase;
-    font-size: small;
+    font-size: xx-small;
 }
 
 #Num{
     color: var(--Blanc);
     font-weight: bold;
-    font-size:large;
+    font-size:x-small;
 }
 
 #Ouv1, #Hor1{
     color: var(--Blanc);
     font-weight: bold;
+    font-size: xx-small;
+    text-transform:capitalize;
     
 }
 
 #Ouv, #Hor{
-    letter-spacing: 1px;
+ font-size: xx-small;   
+ 
+}
+
+#BarreDeNav{
+   
+}
+
+#imgHeader{
+
 }
