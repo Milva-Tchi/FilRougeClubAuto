@@ -11,7 +11,7 @@
 
 <body><!--DEBUT BODY-->
 
-<header class=" d-flex justify-content-center" id="Header1"><!--DEBUT HEADER-->
+<header class=" d-flex justify-content-center" id="Header"><!--DEBUT HEADER-->
 
     <a href="#"  class="navbar-brand"><!--Classe Navbar-brand pour que le logo inséré soit bien placé-->
         <h3 class="navbar-text">CLUB AUTO</h3>       
@@ -51,46 +51,55 @@
 
 
     
-<section id="BarreDeNav" class="border-black"><!--BARRE DE NAVIGATION-->
-    <img src="/images/vehicule1.jpg" class="img-fluid" alt="voitures" id="img">
+<section id="BarreDeNav" class="bgNav"><!--BARRE DE NAVIGATION-->
+    
     <!--Barre de navigation-->
-    <nav class="navbar-collapse navbar-expand" id="navbar-content">
-        <ul class="navbar-nav d-flex justify-content-end me-5">
-            <li class="nav-item"><a class="nav-link" href="index.html">ACCUEIL</a><li>
-            <li class="nav-item"><a class="nav-link" href="vente.html">VENTE</a></li>
-            <li class="nav-item"><a class="nav-link" href="location.html">LOCATION</a><li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+    <nav class="navbar-collapse navbar-expand " id="navbar-content">
+        <ul class="navbar-nav d-flex justify-content-end ">
+            <li class="nav-item mx-2 px-2"><a class="nav-link px-2" href="index.html">Accueil</a><li>
+            <li class="nav-item mx-2 px-2"><a class="nav-link" href="vente.html">Vente</a></li>
+            <li class="nav-item mx-2 px-2"><a class="nav-link" href="location.html">Location</a><li>
+            <li class="nav-item mx-2 px-2"  ><a class="nav-link" id="marginR" href="contact.html" >Contact</a></li>
         </ul>
     </nav>
 </section> <!--FIN BARRE DE NAVIGATION-->
 
-<footer class="bg-danger-subtle">
-    <p>Club auto <span>Le Meilleur de l'automobile</span></p>
+<footer id="footer1" class="mb-5">
+    <h3>Club auto <span>Le Meilleur de l'automobile</span></h3>
 </footer>
 
 <!--------------------------------------------------------------------------------------------------------------------------->
-
-<div><!--1.Présentation-->
-<img src="/images/clients.jpg" alt="clients" class="img-fluid float">
-<h1>BIENVENUE CHEZ <span>CLUB AUTO</span></h1>
-<p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veritatis nihil reiciendis, accusamus perferendis accusantium at iure ex voluptates ducimus?</b></p>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, error assumenda! Laudantium est exercitationem rem. Alias sunt corrupti ducimus reprehenderit? Cumque temporibus facere eveniet reprehenderit, tempora neque ipsam ut distinctio voluptatibus, aut architecto ea mollitia, quasi nobis? Obcaecati aut consequatur, beatae libero itaque enim nam esse officiis eaque necessitatibus vitae consectetur reiciendis? Delectus harum veritatis ea ex qui molestiae cupiditate exercitationem magnam, eius voluptatum, nisi beatae ab, iure deserunt laborum.</p>
+<section class="container-fluid d-flex w-75 mb-4"><!--SECTION 1-->
+<div class="w-50 pe-4"><!--1.Présentation-->
+<img src="/images/clients.jpg" alt="clients" class="img-fluid">
 </div>
 
-<div>
-    <h1>LE MEILLEUR DE L'AUTOMOBILE</h1>
-    <HR></HR>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum. Distinctio illum excepturi, earum mollitia consequuntur, iusto odio sequi rem ipsum sunt modi, dolore eligendi? Nisi dolorem modi a similique accusamus incidunt ullam porro consequuntur amet, doloremque pariatur quas beatae quidem sed libero nulla molestias optio inventore ipsa eligendi animi.</p>
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Aliquam esse officia nam doloremque.</li>
-        <li>Aut error omnis reprehenderit quo?</li>
-        <li>Explicabo corporis eum dolor accusantium.</li>
-        <li>Reprehenderit explicabo quae nulla ea!</li>
+<div class="w-50" >
+<h5 id="Title1" class="pb-2">BIENVENUE CHEZ <span>CLUB AUTO</span></h5>
+<p id="SubTitle" class="pb-3"><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam officiis libero aut, voluptates cumque repellat fugit rem nesciunt.</b></p>
+<p class="TextPres1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis maxime, quaerat dolorum veniam ab officia possimus, temporibus quia aliquam nesciunt corporis ut impedit iure dignissimos? Esse pariatur, nobis doloribus, officia iste velit delectus recusandae earum quisquam ea similique expedita doloremque corrupti quos incidunt nemo necessitatibus veritatis, numquam sunt quia quidem illum. Alias, labore dolor? Culpa quod debitis eius ex error tenetur suscipit a quisquam.</p>
+</div>
+</section>
+
+<section class="container-fluid d-flex w-75"><!--SECTION 2-->
+
+<div class="w-50 pe-4">
+    <h5 id="Title2" class="pb-2">LE MEILLEUR DE L'AUTOMOBILE</h5>
+    <HR class="w-75 pb-3"></HR>
+    <p class="TextPres1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eos eaque delectus culpa dicta velit assumenda magni non dolores voluptatem, neque optio ullam natus quia labore voluptate vero modi ratione ipsa nesciunt dolorum beatae possimus? Nobis placeat beatae non libero. Est commodi necessitatibus nam excepturi?</p><br>
+    <ul id="tick" class="ps-3" >
+        <li class="pb-1">Lorem ipsum dolor sit amet.</li>
+        <li class="pb-1">Lorem ipsum dolor sit amet.</li>
+        <li class="pb-1">Lorem ipsum dolor sit amet.</li>
+        <li class="pb-1">Lorem ipsum dolor sit amet.</li>
+        <li class="pb-1">Lorem ipsum dolor sit amet.</li>
     </ul>
+</div>
+<div class="w-50">
     <img src="/images/entretien.jpg" alt="entretien" class="img-fluid">
 </div>
-
+</section>
+<!---------------------------------------------------------------------------------------------------------------------------------->
 <section class="container-fluid bg-image"><!--2.Acheter ou louer-->
 
 <img src="/images/horizon.jpg" alt="horizon" class="img-fluid">

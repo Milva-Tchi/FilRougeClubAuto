@@ -15,7 +15,7 @@ body{
     
 }
 
-#Header1{
+#Header{
     font-family: Montserrat;
     font-size: smaller;
     background-color: var(--Noir);
@@ -108,10 +108,84 @@ a h3 {
  
 }
 
-#BarreDeNav{
-   
+.bgNav{
+    background-image: url(/images/vehicule1.jpg);
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 
-#imgHeader{
+nav ul{
+    background-color: #eceff3c9;
+}
 
+nav ul li{
+    height: 35px;
+    color: var(--Noir);
+    font-weight: 800;
+    font-family: 'Montserrat';
+    font-size: xx-small;
+    text-transform:uppercase;
+    display: flex;
+    align-items: center;
+}
+
+
+ul li:hover{
+    color: var(--Blanc);
+    background-color: var(--Orange);
+    contain:style;
+  
+}
+
+#footer1{
+    height: 56px;
+    background-color: var(--Noir);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: xx-small;
+    padding-left: 120px;
+}
+
+#footer1 h3{
+    color: var(--Blanc);
+}
+
+#footer1 span{
+    color: var(--Orange);
+    
+}
+
+/*1.PRESENTATION*/
+#Title1, #Title2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size:medium;
+}
+
+#Title1 span{
+    color: var(--Orange);
+}
+
+#SubTitle, .TextPres1{
+    font-family: 'Open Sans';
+    font-size: x-small;
+    color: grey;
+
+}
+
+HR{
+    width: fit-content;}
+
+
+#tick li{
+    list-style: none;
+    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23CC6119' d='M437.3 30L202.7 339.3L64 200.7l-64 64L213.3 478L512 94z'/%3E%3C/svg%3E");
+    font-size: x-small;
+    font-family: 'Open Sans';
+    
 }
