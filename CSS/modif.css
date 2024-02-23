@@ -132,7 +132,7 @@ nav ul li{
 }
 
 
-ul li:hover{
+#navbar-content ul li:hover{
     color: var(--Blanc);
     background-color: var(--Orange);
     contain:style;
@@ -164,7 +164,7 @@ ul li:hover{
 #Title1, #Title2{
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size:medium;
+    font-size:large;
 }
 
 #Title1 span{
@@ -173,19 +173,100 @@ ul li:hover{
 
 #SubTitle, .TextPres1{
     font-family: 'Open Sans';
-    font-size: x-small;
-    color: grey;
-
+    font-size: small;
 }
 
-HR{
-    width: fit-content;}
+#SubTitle{
+    color:var(--Noir);
+    font-weight: 600;
+}
+
+.TextPres1{
+    color: #555555;
+    font-weight: 600;
+}
+
+#color{
+    color: #898989;
+}
+
+hr{
+    color: #898989;
+}
 
 
 #tick li{
     list-style: none;
     list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23CC6119' d='M437.3 30L202.7 339.3L64 200.7l-64 64L213.3 478L512 94z'/%3E%3C/svg%3E");
-    font-size: x-small;
+    font-size: small;
     font-family: 'Open Sans';
+    color: #555555;
+    font-weight: 600;
+}
+/*2.ACHETER OU LOUER*/
+
+.bgAouL{
+    background-image: url(/images/horizon.jpg);
+    height: 650px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: small;
+    background-position: 100%;
+}
+
+#article1{
+    background-color: var(--Jaune);
+    opacity: 88%;
+    padding-top: 150px;
+}
+
+#article2{
+    background-color:var(--Rouge);
+    opacity: 88%;
+    padding-top: 150px;
     
+}
+
+#article1 h4, #article2 h4{
+    font-family: 'Montserrat';
+    font-weight:750;
+}
+
+#article1 p,  #article2 p{
+    font-family: 'Open Sans';
+    color: var(--Blanc);
+}
+
+/*3.Véhicules récents*/
+
+.bgVr{
+    background-color: var(--Noir);
+}
+.titre3{
+    color: var(--Blanc);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+hr{
+    color: var(--Orange);
+    opacity: 100;
+    border-top: 3px solid;
+}
+
+.card1, .card2, .card3, .card-img-top{
+    border-radius: 0%;
+    border: none;
+    background-color: var(--Noir);
+}
+
+.card-body{
+    background-color: #373c3f;
+}
+
+.card-body .btn{
+    background-color: #6c98df;
+    border: none;
+    border-radius: 0%;
 }
