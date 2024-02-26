@@ -242,6 +242,7 @@ hr{
 .bgVr{
     background-color: var(--Noir);
 }
+
 .titre3{
     color: var(--Blanc);
     font-weight: 700;
@@ -249,11 +250,15 @@ hr{
     font-family: 'Montserrat';
 }
 
-hr{
+.bgVr hr{
     color: var(--Orange);
     opacity: 100;
     border-top: 3px solid;
+    display: flex;
+    
 }
+
+
 
 .card1, .card2, .card3, .card-img-top{
     border-radius: 0%;
@@ -269,4 +274,44 @@ hr{
     background-color: #6c98df;
     border: none;
     border-radius: 0%;
+}
+
+/*4.Pourquoi nous choisir ?*/
+.iconePnc{
+    width: 40px;
+    height: 40px;
+}
+
+.partie4 h4{
+    font-family: 'Montserrat';
+    font-weight: 750;
+}
+
+.partie44 h6{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.partie44 p{
+    font-family: 'Open Sans';
+    color: #898989;
+    font-size: x-small;
+}
+
+.btn4 .btn{
+    background-color: #6c98df ;
+    border-radius: 5%;
+    border: none;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: x-small;
+}
+
+
+.bg-image{
+    background-image: url(/images/vehicule3.jpg);
+    height: 600px;
 }
