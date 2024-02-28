@@ -16,64 +16,58 @@ body{
 }
 
 #Header{
-    font-family: Montserrat;
+    height: 80px;
+    font-family: 'Montserrat';
     font-size: smaller;
     background-color: var(--Noir);
     display: flex; /* Utilisation de Flexbox */ 
-    align-items:flex-start;
-    
-    
+    align-items:center; 
     
 }
+
+#Header a h3 {
+    color: var(--Blanc);
+    font-weight: 600;
+    margin-right: 15px;
+} 
 
 p{
     margin: 0;
 } 
 
-#bloc1, #bloc2, #bloc3, #bloc4{
+#bloc1, #bloc2, #bloc3{
     margin-right: 20px; /* Espacement horizontal entre les éléments */
-    margin-top: 10px;
+    
 }
-
-
-a h3 {
-    color: var(--Blanc);
-    font-weight: 600;
-    margin-right: 20px;
-} 
 
 #Loc, #Tel{
     width: 28px;
     height: 28px;
-    display: flex; /* Utilisation de Flexbox */
-    margin-top: 10px; 
-    margin-right: 5px;
+    display: flex; 
+    margin-bottom: 10px; 
+    margin-right: 2px;
     
 }
-
-#bloc1 img {
-    align-self: center; /* Alignement vertical au centre */
-    margin-bottom: -1rem; /* Décalage vers le bas (ajustez selon vos besoins) */
-}
-
-#bloc2 img{
-    align-self: center; /* Alignement vertical au centre */
-    margin-bottom: -1rem; /* Décalage vers le bas (ajustez selon vos besoins) */
-}
-
 
 
 #bloc4 svg{
-    width: 30px;
+    
+    width: 20px; /* Largeur de l'icône */
+    height: 20px; /* Hauteur de l'icône */
+    padding: 4px; /* Augmenter l'espace à l'intérieur du cercle */
+    background-color: #393d40;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+    
+    
+}
+
+#facebook{
+    margin-right: 8px;
 }
     
 
-
-
-#Header1>h2{
-    color: var(--Blanc);
-    font-weight: 700;
-}
 
 #Adr, #Tél, #Ouv, #Hor{
     color: var(--Orange);
@@ -140,23 +134,27 @@ nav ul li{
 }
 
 #footer1{
-    height: 56px;
+    height: 80px;
     background-color: var(--Noir);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-weight: 900;
     text-transform: uppercase;
-    font-size: xx-small;
-    padding-left: 120px;
+    font-size: smaller;
+    padding-left: 100px;
+    color: var(--Blanc);
 }
 
 #footer1 h3{
     color: var(--Blanc);
+    font-family: 'Montserrat';
+    font-weight: 600;
 }
 
 #footer1 span{
     color: var(--Orange);
+    font-family: 'Montserrat';
+    font-weight: 600;
     
 }
 
@@ -266,6 +264,12 @@ hr{
     background-color: var(--Noir);
 }
 
+.card3 .btn span{
+    color: var(--Noir);
+    text-decoration:overline line-through;
+    font-size: small;font-weight: 200;
+}
+
 .card-body{
     background-color: #373c3f;
 }
@@ -274,6 +278,10 @@ hr{
     background-color: #6c98df;
     border: none;
     border-radius: 0%;
+    color: var(--Blanc);
+    font-weight: 700;
+    font-family: 'Open Sans';
+    font-size: small;
 }
 
 /*4.Pourquoi nous choisir ?*/
@@ -322,6 +330,8 @@ hr{
 .prez{
     background-color: var(--Jaune);
     opacity: 88%;
+    margin-left: 155px;
+    margin-top: 80px;
 }
 
 .prez h4{
