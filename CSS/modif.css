@@ -207,7 +207,7 @@ hr{
 
 .bgAouL{
     background-image: url(/images/horizon.jpg);
-    height: 650px;
+    height: 500px;
     background-size:cover;
     background-repeat: no-repeat;
     font-size: small;
@@ -310,8 +310,131 @@ hr{
     font-size: x-small;
 }
 
-
+/*5.Club auto*/
 .bg-image{
     background-image: url(/images/vehicule3.jpg);
     height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.prez{
+    background-color: var(--Jaune);
+    opacity: 88%;
+}
+
+.prez h4{
+  font-weight: 750;
+  font-family: 'Montserrat';  
+  font-size: xx-large;
+}
+
+.prez p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: small;
+    
+}
+
+.footer{
+    height: 150px;
+    background-color: var(--Noir);
+    margin-bottom: 0px;
+}
+
+.blocF1 h6{
+    color: #6c98df;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: small;
+}
+.blocF1 span{
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: small;
+}
+
+.blocF1 p{
+    color: #aaaaaa;
+    font-family: 'Open Sans';
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.blocF2 h6{
+    color: var(--Blanc);
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: small;
+}
+
+.blocF2 p span{
+    color: #aaaaaa;
+    font-family: 'Open Sans';
+    font-size: small;
+    font-weight: 700;
+}
+
+.blocF2 p{
+    font-size: small;
+}
+
+.blocF3 h6{
+    color: var(--Blanc);
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: small;
+}
+
+.blocF3 p{
+    color: #aaaaaa;
+    font-family: 'Open Sans';
+    font-size: small;
+    
+}
+
+.blocF3 form input{
+    border-radius:0%;
+
+}
+
+.blocF3 form  button{
+    border-radius: 0%;
+    background-color: var(--Orange);
+}
+
+
+.blocF4 h6{
+    color: var(--Blanc);
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: small;
+
+}
+
+.copyRight{
+    background-color: var(--Noir);
+    
+    
+}
+
+.copyRight p{
+    color: #aaaaaa;
+    font-family: 'Open Sans';
+    font-size: small;
+    margin: 0px 0px;
+}
+
+.hrFooter{
+    width: 1020px;
+    margin-left: 120px;
+    
+}
+
+.blocF4 button{
+
+    background-color: #393d40;
+    border-radius: 0%;
+
 }
