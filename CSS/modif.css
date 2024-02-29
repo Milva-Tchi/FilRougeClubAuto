@@ -15,8 +15,9 @@ body{
     
 }
 
+/*Header et Navbar*/
 #Header{
-    height: 80px;
+    height: 90px;
     font-family: 'Montserrat';
     font-size: smaller;
     background-color: var(--Noir);
@@ -104,25 +105,36 @@ p{
 
 .bgNav{
     background-image: url(/images/vehicule1.jpg);
-    height: 400px;
+    height: 800px;
     background-size:cover;
     background-repeat: no-repeat;
+   
     
 }
 
 nav ul{
     background-color: #eceff3c9;
+    
+    
+    
+   
+    
 }
 
 nav ul li{
-    height: 35px;
+    height: 50px;
     color: var(--Noir);
     font-weight: 800;
     font-family: 'Montserrat';
-    font-size: xx-small;
+    font-size: small;
     text-transform:uppercase;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    
+}
+
+#marginR{
+    margin-right: 220px;
 }
 
 
@@ -134,14 +146,14 @@ nav ul li{
 }
 
 #footer1{
-    height: 80px;
+    height: 90px;
     background-color: var(--Noir);
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
     font-size: smaller;
-    padding-left: 100px;
+    padding-left: 255px;
     color: var(--Blanc);
 }
 
@@ -205,7 +217,7 @@ hr{
 
 .bgAouL{
     background-image: url(/images/horizon.jpg);
-    height: 500px;
+    height: 700px;
     background-size:cover;
     background-repeat: no-repeat;
     font-size: small;
@@ -215,30 +227,42 @@ hr{
 #article1{
     background-color: var(--Jaune);
     opacity: 88%;
-    padding-top: 150px;
+    height: 400px;
+    padding-top: 180px;
+    padding-left: 70px;
+    padding-right: 50px;
+
+    
+    
 }
 
 #article2{
     background-color:var(--Rouge);
     opacity: 88%;
-    padding-top: 150px;
-    
+    height: 400px;
+    padding-top: 180px;
+    padding-left: 70px;
+    padding-right: 50px;
 }
 
 #article1 h4, #article2 h4{
     font-family: 'Montserrat';
-    font-weight:750;
+    font-weight:800;
+    font-size:30px;
+    color: black;
 }
 
 #article1 p,  #article2 p{
     font-family: 'Open Sans';
     color: var(--Blanc);
+    font-size: small;
 }
 
 /*3.Véhicules récents*/
 
 .bgVr{
     background-color: var(--Noir);
+    height: 700px;
 }
 
 .titre3{
@@ -248,12 +272,10 @@ hr{
     font-family: 'Montserrat';
 }
 
-.bgVr hr{
+.bgVr #hr1{
     color: var(--Orange);
     opacity: 100;
     border-top: 3px solid;
-    display: flex;
-    
 }
 
 
@@ -266,12 +288,17 @@ hr{
 
 .card3 .btn span{
     color: var(--Noir);
-    text-decoration:overline line-through;
-    font-size: small;font-weight: 200;
+    text-decoration: line-through;
+    font-size: small;
+    font-weight:normal;
+    padding-left: 9px;
+   
+    
 }
 
 .card-body{
     background-color: #373c3f;
+    
 }
 
 .card-body .btn{
@@ -280,8 +307,26 @@ hr{
     border-radius: 0%;
     color: var(--Blanc);
     font-weight: 700;
-    font-family: 'Open Sans';
-    font-size: small;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding-left: 4px;
+    width: 90px;
+    
+    
+}
+
+.card-body h6{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--Blanc);
+}
+
+.bgVr #hr2{
+   border-top:2px solid;
+   margin-bottom: 0px;
+   
+    
 }
 
 /*4.Pourquoi nous choisir ?*/
@@ -293,6 +338,8 @@ hr{
 .partie4 h4{
     font-family: 'Montserrat';
     font-weight: 750;
+    font-size: 30px;
+    margin-bottom: 90px;
 }
 
 .partie44 h6{
@@ -315,13 +362,18 @@ hr{
     font-weight: 700;
     font-family: 'Montserrat';
     text-transform: uppercase;
-    font-size: x-small;
+    font-size: 13px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*5.Club auto*/
 .bg-image{
     background-image: url(/images/vehicule3.jpg);
-    height: 600px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -330,23 +382,27 @@ hr{
 .prez{
     background-color: var(--Jaune);
     opacity: 88%;
-    margin-left: 155px;
-    margin-top: 80px;
+    margin-top: 100px;
+    
+    
 }
 
 .prez h4{
   font-weight: 750;
   font-family: 'Montserrat';  
   font-size: xx-large;
+  color: black;
 }
 
 .prez p{
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: small;
+    color: black;
     
 }
 
+/*6.Footer*/
 .footer{
     height: 150px;
     background-color: var(--Noir);

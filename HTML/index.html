@@ -52,11 +52,11 @@
     
     <!--Barre de navigation-->
     <nav class="navbar-collapse navbar-expand " id="navbar-content">
-    <ul class="navbar-nav d-flex justify-content-end ">
-        <li class="nav-item mx-2 px-2"><a class="nav-link px-2" href="index.html">Accueil</a><li>
-        <li class="nav-item mx-2 px-2"><a class="nav-link" href="vente.html">Vente</a></li>
-        <li class="nav-item mx-2 px-2"><a class="nav-link" href="location.html">Location</a><li>
-        <li class="nav-item mx-2 px-2"  ><a class="nav-link" id="marginR" href="contact.html" >Contact</a></li>
+    <ul class="navbar-nav justify-content-end">
+        <li class="nav-item px-3 "><a class="nav-link " href="index.html">Accueil</a><li>
+        <li class="nav-item px-3 "><a class="nav-link" href="vente.html">Vente</a></li>
+        <li class="nav-item px-3 "><a class="nav-link" href="location.html">Location</a><li>
+        <li class="nav-item px-3" id="marginR"  ><a class="nav-link" href="contact.html" >Contact</a></li>
     </ul>
     </nav>
 </section> <!--FIN BARRE DE NAVIGATION-->
@@ -97,51 +97,53 @@
 </div>
 </section>
 <!---------------------------------------------------------------------------------------------------------------------------------->
-<section class="bgAouL d-flex  justify-content-center"><!--2.Acheter ou louer-->
+<section class="bgAouL d-flex justify-content-center"><!--2.Acheter ou louer-->
 
-<article class="w-25 h-50 align-self-center px-4 me-4" id="article1">
-    <h4 class="pb-2 ">Vous souhaitez louer ?</h4>
-    <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione voluptate illo qui quasi! Porro mollitia aspernatur aut illum neque saepe est, pariatur molestiae. Eligendi tempora delectus, nemo.</p>
+<div class="container-fluid d-flex w-75">
+<article class="w-50 align-self-center  me-5" id="article1">
+    <h4 class="pb-1 ">Vous souhaitez louer ?</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione voluptate illo qui quasi! Porro mollitia aspernatur aut illum neque saepe est, pariatur molestiae. Eligendi tempora delectus, nemo.  Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione </p>
 </article>
 
-<article class="w-25 h-50 align-self-center px-4 " id="article2">
-    <h4 class="pb-2">Vous souhaitez acheter ?</h4>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione voluptate illo qui quasi! Porro mollitia aspernatur aut illum neque saepe est, pariatur molestiae. Eligendi tempora delectus, nemo.</p>
+<article class="w-50 align-self-center " id="article2">
+    <h4 class="pb-1">Vous souhaitez acheter ?</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione voluptate illo qui quasi! Porro mollitia aspernatur aut illum neque saepe est, pariatur molestiae. Eligendi tempora delectus, nemo.  Explicabo ad soluta aperiam ipsam fuga aspernatur ipsum obcaecati libero. Ratione </p>
 </article>
+</div>
 </section>
 
-<section class="bgVr container-fluid "><!--3.Véhicules récents-->
+<section class="bgVr container-fluid mb-5 "><!--3.Véhicules récents-->
 
-    <div class="row">
-    <h2 class="titre3 text-center pt-4 pb-2">Vehicules recents</h2>    
+    <div>
+    <h2 class="titre3 text-center pt-5 pb-2">Vehicules recents</h2>    
     </div>
 
-    <hr class="mb-5 ms-5 me-5">
+    <hr class="mb-5 mx-auto w-75" id="hr1">
 
-    <section class="d-flex justify-content-center pb-5 ms-5 me-5"><!--photos et cards-->
+    <section class="container-fluid w-75 d-flex justify-content-center px-0 "><!--photos et cards-->
         
-
     <div class="card card1 me-4 "><!--card 1-->
         <img src="/images/vehicule2.jpg" alt="vehicule" class="card-img-top pb-2">
     
-    <div class="card-body d-flex justify-content-end align-items-start pt-4">
-    
-    <h6 class="text-light">BMW 5351, NAVI,<br>LEATHER, ABS</h6>
-    <a href="#" class="btn  ms-auto ">5 500 €</a><!--Création du bouton prix-->
-    
+    <div class="card-body">
+    <div class="d-flex justify-content-end align-items-start pt-3 pb-2">
+    <h6 class="">Bmw 5351, Navi,<br>Leather, Abs</h6>
+    <a href="#" class="btn ms-auto py-2 ">5 500 €</a>
+    </div>
+    <hr class="w-100" id="hr2">
     </div>
     </div>
     
     
-
-    <div class="card  card2 me-4"><!--card 2-->
+    <div class="card card2 me-4"><!--card 2-->
         <img src="/images/vehicule2.jpg" alt="vehicule" class="card-img-top pb-2">
     
-
-    <div class="card-body d-flex justify-content-end align-items-start pt-4 pb-5" >
-    <h6 class="card-title text-light">BMW 3281, SPORT,<br>LINE BODY KIT</h6>
-    <a href="#" class="btn  ms-auto">8 000 €</a><!--Création du bouton prix-->
-    <hr>
+    <div class="card-body" >
+    <div class="d-flex justify-content-end align-items-start pt-3 pb-2">
+    <h6 class="card-title">Bmw 3281, Sport,<br>Line Body Kit</h6>
+    <a href="#" class="btn ms-auto py-2">8 000 €</a>
+    </div>
+    <hr class="w-100" id="hr2">
     </div>
     </div>
     
@@ -149,11 +151,12 @@
     <div class="card card3"><!--card 3-->
         <img src="/images/vehicule2.jpg" alt="vehicule" class="card-img-top pb-2">
     
-
-    <div class="card-body d-flex justify-content-end align-items-start pt-4">
-    <h6 class="card-title text-light ">FORD EXPLORER 2015<br>4WD</h6>
-    <a href="#" class="btn ms-auto pb-0 pt-0 "><span>9 000€</span><br>8 200 €</a><!--Création du bouton prix-->
-    
+    <div class="card-body">
+    <div class="d-flex justify-content-end align-items-start pt-3 pb-2">
+    <h6 class="card-title ">Ford explorer 2015<br>4wd</h6>
+    <a href="#" class="btn ms-auto pb-0 pt-0 "><span>9 000€</span><br>8 200 €</a>
+    </div>
+    <hr class="w-100" id="hr2">
     </div>
     </div>
     </section>
@@ -161,11 +164,11 @@
 
 <section class="partie4"><!--4.Pourquoi nous choisir ?-->
     <div>
-        <h4 class="text-center mb-5 mt-4">Pourquoi nous choisir ?</h4>
+        <h4 class="text-center">Pourquoi nous choisir ?</h4>
     </div>
 </section>
 
-<section class="partie44 container-fluid d-flex w-75 mb-4">
+<section class="partie44 container-fluid d-flex w-75 mb-5 px-0">
 
     <img src="/images/iconEtiquette.png" alt="Financement" class="iconePnc me-3">
     <div class="w-25">        
@@ -191,22 +194,25 @@
         <p class="w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sequi provident, dicta enim velit aperiam! Culpa velit ducimus cupiditate voluptatem.</p>
     </div>
 </section>
-<div class="btn4 d-flex justify-content-center">
-<a href="#" class="btn btn-primary px-4 py-2 mt-3">Contactez nous</a>
+<div class="btn4 d-flex justify-content-center mb-5">
+<a href="#" class="btn btn-primary px-4 py-2">Contactez nous</a>
 </div>
 
-<section class="bg-image mt-5 d-flex"><!--5.Club auto-->
-   
-    <div class="prez  ps-5 pe-5 pt-5  h-50">
+<section class="bg-image"><!--5.Club auto-->
+<div class="w-75 container-fluid d-flex">
+   <div class="prez px-5 py-3 ">
+    <article class="px-5 py-5">    
         <h4 class="mb-3">CLUB AUTO <BR><span class="text-white">VENTE ET LOCATION</span></h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Asperiores facilis maiores explicabo autem non dolor?<br> Natus saepe atque blanditiis consectetur, repudiandae<br>
-            distinctio voluptate magni illum vel adipisci ullam, amet</p>       
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Asperiores facilis maiores explicabo autem non dolor?<br> Natus saepe atque blanditiis consectetur, repudiandae<br>
+        distinctio voluptate magni illum vel adipisci ullam, amet</p>              
+    </article>
     </div>
-
+</div>
 </section> 
 
-    <footer class="footer d-flex justify-content-center pt-5"><!--6.FOOTER-->
+    <footer class="footer pt-5"><!--6.FOOTER-->
 
+<section class="container-fluid d-flex justify-content-between w-75 ">
     <div class=" blocF1 me-5">
         <h6 class="">CLUB <span class="text-white">AUTO</span></h6>
         <p class="">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Voluptates quidem quo<br> nostrum, quas rem laboriosam? <br>Amet atque et dolorum dolores.</p>
@@ -253,12 +259,12 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#eceff3" d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73"/></svg>
         </button>        
     </div>
-   
+</section>  
 </footer>
 
 
-<section class="copyRight text-center  pb-2 pt-4">
-    <hr class="hrFooter">
+<section class="copyRight text-center pb-2 pt-4">
+    <hr class="hrFooter mx-auto">
     <p class="pb-2">Copyright &copy; Club Auto - Tous droits réservés</p>    
 </section>
 
