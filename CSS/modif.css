@@ -9,26 +9,23 @@
     --GrisClair: #ECEFF3;
     --Noir: #232628;
     --Bleu: #6C98E1;
-
-
-body{
-    
 }
 
 /*Header et Navbar*/
+
 #Header{
-    height: 90px;
+    height: 100px;
     font-family: 'Montserrat';
-    font-size: smaller;
+    font-size: small;
     background-color: var(--Noir);
     display: flex; /* Utilisation de Flexbox */ 
     align-items:center; 
     
 }
 
-#Header a h3 {
+#Header a h2 {
     color: var(--Blanc);
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 15px;
 } 
 
@@ -38,7 +35,7 @@ p{
 
 #bloc1, #bloc2, #bloc3{
     margin-right: 20px; /* Espacement horizontal entre les éléments */
-    
+    padding-top: 10px;
 }
 
 #Loc, #Tel{
@@ -46,30 +43,16 @@ p{
     height: 28px;
     display: flex; 
     margin-bottom: 10px; 
-    margin-right: 2px;
-    
+    margin-right: 5px;    
 }
 
-
-#bloc4 svg{
-    
-    width: 20px; /* Largeur de l'icône */
-    height: 20px; /* Hauteur de l'icône */
-    padding: 4px; /* Augmenter l'espace à l'intérieur du cercle */
+#bloc4 .btn {
     background-color: #393d40;
     border-radius: 100%;
-    margin-bottom: 15px;
-}
-    
-    
 }
 
-#facebook{
-    margin-right: 8px;
-}
+
     
-
-
 #Adr, #Tél, #Ouv, #Hor{
     color: var(--Orange);
     text-transform: uppercase;
@@ -87,7 +70,7 @@ p{
 #Num{
     color: var(--Blanc);
     font-weight: bold;
-    font-size:x-small;
+    font-size: small;
 }
 
 #Ouv1, #Hor1{
@@ -105,7 +88,7 @@ p{
 
 .bgNav{
     background-image: url(/images/vehicule1.jpg);
-    height: 800px;
+    height: 750px;
     background-size:cover;
     background-repeat: no-repeat;
    
@@ -114,11 +97,7 @@ p{
 
 nav ul{
     background-color: #eceff3c9;
-    
-    
-    
-   
-    
+     
 }
 
 nav ul li{
@@ -142,31 +121,29 @@ nav ul li{
     color: var(--Blanc);
     background-color: var(--Orange);
     contain:style;
-  
 }
+
+
+
 
 #footer1{
-    height: 90px;
+    height: 100px;
     background-color: var(--Noir);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     text-transform: uppercase;
-    font-size: smaller;
-    padding-left: 255px;
+    font-size: small;
     color: var(--Blanc);
 }
 
-#footer1 h3{
+#footer1 h2{
     color: var(--Blanc);
     font-family: 'Montserrat';
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #footer1 span{
     color: var(--Orange);
     font-family: 'Montserrat';
-    font-weight: 600;
+    font-weight: 700;
     
 }
 
@@ -217,7 +194,7 @@ hr{
 
 .bgAouL{
     background-image: url(/images/horizon.jpg);
-    height: 700px;
+    height: 650px;
     background-size:cover;
     background-repeat: no-repeat;
     font-size: small;
@@ -227,7 +204,7 @@ hr{
 #article1{
     background-color: var(--Jaune);
     opacity: 88%;
-    height: 400px;
+    height: 382px;
     padding-top: 180px;
     padding-left: 70px;
     padding-right: 50px;
@@ -239,7 +216,7 @@ hr{
 #article2{
     background-color:var(--Rouge);
     opacity: 88%;
-    height: 400px;
+    height: 382px;
     padding-top: 180px;
     padding-left: 70px;
     padding-right: 50px;
@@ -390,15 +367,17 @@ hr{
 .prez h4{
   font-weight: 750;
   font-family: 'Montserrat';  
-  font-size: xx-large;
+  font-size: 40px;
   color: black;
+  
 }
 
 .prez p{
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 650;
     font-size: small;
     color: black;
+    
     
 }
 
