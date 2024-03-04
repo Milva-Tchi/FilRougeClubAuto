@@ -127,7 +127,8 @@ nav ul li{
 
 
 #footer1{
-    height: 100px;
+    min-height: 100px;
+    
     background-color: var(--Noir);
     text-transform: uppercase;
     font-size: small;
@@ -146,6 +147,9 @@ nav ul li{
     font-weight: 700;
     
 }
+
+
+
 
 /*1.PRESENTATION*/
 #Title1, #Title2{
