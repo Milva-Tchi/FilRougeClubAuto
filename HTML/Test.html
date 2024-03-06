@@ -12,7 +12,7 @@
 <body><!--DEBUT BODY-->
 
 <main class="container-fluid">
-<header id="Header" class="row"><!--DEBUT HEADER-->
+<header id="Header" class="row d-flex align-items-center"><!--DEBUT HEADER-->
 
 <section class="d-block d-sm-flex justify-content-between  col-sm-10 col-md-10 offset-1 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
 
@@ -32,7 +32,7 @@
 </div>
     
 
-<div id="bloc2" class="d-block d-sm-flex ">  
+<div id="bloc2" class="d-flex ">  
 <div>
     <img src="/images/icon-telephone.png" alt="Téléphone" id="Tel" >  
 </div>
@@ -58,29 +58,41 @@
 </button>
 </div>
 
-    <!--Bouton Ham-->
-    <button type="button" class="navbar-toggler btn-danger" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
 </section>
 </header><!--FIN HEADER-->
 
-<section id="BarreDeNav" class="row bgNav d-none d-sm-flex"><!--BARRE DE NAVIGATION-->
-    
-    <!--Barre de navigation-->
-    <nav class="navbar-collapse navbar-expand" id="navbar-content">
-    <ul class="navbar-nav justify-content-end">
-        <li class="nav-item active px-3"><a class="nav-link" href="index.html">Accueil</a><li>
-        <li class="nav-item px-3 "><a class="nav-link" href="vente.html">Vente</a></li>
-        <li class="nav-item px-3 "><a class="nav-link" href="location.html">Location</a><li>
-        <li class="nav-item px-3" id="marginR"  ><a class="nav-link" href="contact.html" >Contact</a></li>
-    </ul>
-    </nav>
-</section> <!--FIN BARRE DE NAVIGATION-->
+<section id="BarreDeNav" class="row bgNav position-relative d-none d-sm-flex "><!--BARRE DE NAVIGATION-->
+
+    <div class="container-fluid position-absolute">
+    <nav class="row navbar navbar-expand-sm py-0 ">
+        
+         <div class="col-sm-6 col-md-8 col-lg-10 col-xxl-12 position-relative">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav position-absolute start-50 ps-5">
+              <li class="nav-item  px-3 ">
+                <a class="nav-link  px-3 py-3" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item  px-3">
+                <a class="nav-link px-3 py-3" href="#">Vente</a>
+              </li>
+              <li class="nav-item  px-3">
+                <a class="nav-link px-3 py-3" href="#">Location</a>
+              </li>
+              <li class="nav-item  px-3">
+                <a class="nav-link px-3 py-3" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </section> <!--FIN BARRE DE NAVIGATION-->
 
 <footer id="footer1" class="row d-block d-sm-flex  align-items-center mb-5 ">
-<section class="col-sm-12 col-md-8 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2 ">
+<section class="col-12 offset-1 col-sm-12 col-md-8 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2 ">
     <h2>Club auto <span>Le Meilleur de l'automobile</span></h2>
 </section>
 </footer>

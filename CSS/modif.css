@@ -18,8 +18,7 @@
     font-family: 'Montserrat';
     font-size: small;
     background-color: var(--Noir);
-    display: flex; /* Utilisation de Flexbox */ 
-    align-items:center; 
+    
     
 }
 
@@ -48,7 +47,8 @@ p{
 
 #bloc4 .btn {
     background-color: #393d40;
-    border-radius: 100%;
+    border-radius: 50%;
+   
 }
 
 
@@ -86,43 +86,39 @@ p{
  
 }
 
+
+
 .bgNav{
     background-image: url(/images/vehicule1.jpg);
     height: 750px;
     background-size:cover;
     background-repeat: no-repeat;
-   
-    
 }
 
-nav ul{
-    background-color: #eceff3c9;
-     
+.navbar{
+    background-color: #eceff3c9;  
 }
 
-nav ul li{
-    height: 50px;
-    color: var(--Noir);
+#navbarNav{
+    height: 52px;
     font-weight: 800;
     font-family: 'Montserrat';
     font-size: small;
     text-transform:uppercase;
     display: flex;
     align-items: center; 
-    
-}
-
-#marginR{
-    margin-right: 220px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
-#navbar-content ul li:hover{
+.nav-item .nav-link{
+    color: #232628;
+}
+
+.nav-item .nav-link:hover{
     color: var(--Blanc);
     background-color: var(--Orange);
-    contain:style;
 }
-
 
 
 
