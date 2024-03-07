@@ -93,23 +93,23 @@ p{
     height: 750px;
     background-size:cover;
     background-repeat: no-repeat;
+    
+    
 }
 
-.navbar{
-    background-color: #eceff3c9;  
-}
 
-#navbarNav{
+
+.Hd{
     height: 52px;
-    font-weight: 800;
+    font-weight: 750;
     font-family: 'Montserrat';
     font-size: small;
     text-transform:uppercase;
     display: flex;
-    align-items: center; 
+    background-color: #eceff3c9;  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
-
 
 .nav-item .nav-link{
     color: #232628;
@@ -122,8 +122,19 @@ p{
 
 
 
+.navbar-toggler{
+    border: none;
+    
+}
+
+.navbar-toggler-icon .navbar-toggler:focus{
+    outline: none !important;
+    
+}
+
+
 #footer1{
-    min-height: 100px;
+    height: 100px;
     
     background-color: var(--Noir);
     text-transform: uppercase;
