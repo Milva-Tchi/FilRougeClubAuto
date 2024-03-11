@@ -215,22 +215,17 @@ hr{
 #article1{
     background-color: var(--Jaune);
     opacity: 88%;
-    height: 382px;
-    padding-top: 180px;
-    padding-left: 70px;
-    padding-right: 50px;
-
     
+    
+       
     
 }
 
 #article2{
     background-color:var(--Rouge);
     opacity: 88%;
-    height: 382px;
-    padding-top: 180px;
-    padding-left: 70px;
-    padding-right: 50px;
+    
+   
 }
 
 #article1 h4, #article2 h4{

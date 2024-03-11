@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/modif.css">   
     <script src="/JS/bootstrap.bundle.min.js" defer></script>
+    <script src="/JS/modif.js" defer></script>
     <title>Ma page avec bandeau et barre de navigation</title>
     
 </head>
@@ -67,14 +68,15 @@
 
 
 <!-- Barre de navigation en dessous du bandeau -->
-<header class=" navbar navbar-expand-md px-0 py-0 container-fluid align-items-start bgNav ">
+<header class=" navbar navbar-expand-sm d-flex container-fluid py-0 align-items-start bgNav ">
 
     
     
+    
     <!--Création des différents onglets de la barre de nav-->
-    <div class="Hd collapse navbar-collapse justify-content-end" id="navbar-content"><!--Les classes collapse et navbar-collapse permettent de faire disparaitre l'icône Ham sur grand écran+ID permettant de relier le comportement au boutton avec data-->
-        <nav class="position">
-            <ul class="navbar-nav"><!--Navbar-nav et nav-item pour la mise en page des onglets horizontalement+ms-auto pour placer les onglets tout à droite sur grand écran-->
+    <div class="Hd collapse navbar-collapse mx-auto ps-5 row" id="navbar-content"><!--Les classes collapse et navbar-collapse permettent de faire disparaitre l'icône Ham sur grand écran+ID permettant de relier le comportement au boutton avec data-->
+        <nav class="col-12 col-sm-4 offset-6 ps-5">
+            <ul class="navbar-nav ms-4"><!--Navbar-nav et nav-item pour la mise en page des onglets horizontalement+ms-auto pour placer les onglets tout à droite sur grand écran-->
                 <li class="nav-item "><a class="nav-link px-3 py-3 active" href="#">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link px-3 py-3" href="#">Vente</a></li>
                 <li class="nav-item"><a class="nav-link px-3 py-3" href="#">Location</a></li>                    
@@ -86,8 +88,8 @@
 
 <!--Mini Footer-->
 <div>
-<div class="container-fluid d-flex align-items-center" id="footer1">
-    <h2 class="ms-5 ps-5">Club auto <span>Le Meilleur de l'automobile</span></h2>
+<div class="container-fluid d-flex align-items-center " id="footer1">
+    <h2 class="col-12 offset-1 col-sm-12 col-md-8 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2 ps-xl-5">Club auto <span>Le Meilleur de l'automobile</span></h2>
 </div>
 </div>
 
