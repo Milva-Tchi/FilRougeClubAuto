@@ -11,15 +11,12 @@
     --Bleu: #6C98E1;
 }
 
-/*Header et Navbar*/
-
+/*====== TOP BAR ======*/
 #Header{
-    height: 100px;
+    min-height: 120px;
     font-family: 'Montserrat';
     font-size: small;
     background-color: var(--Noir);
-    
-    
 }
 
 #Header a h2 {
@@ -87,20 +84,15 @@ p{
 }
 
 
-
 .bgNav{
     background-image: url(/images/vehicule1.jpg);
-    height: 750px;
+    height: 650px;
     background-size:cover;
     background-repeat: no-repeat;
-    
-    
 }
 
-
-
 .Hd{
-    height: 52px;
+    
     font-weight: 750;
     font-family: 'Montserrat';
     font-size: small;
@@ -108,6 +100,7 @@ p{
     display: flex;
     background-color: #eceff3c9;  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
     
 }
 
@@ -134,7 +127,7 @@ p{
 
 
 #footer1{
-    height: 100px;
+    height: 120px;
     
     background-color: var(--Noir);
     text-transform: uppercase;
@@ -158,7 +151,7 @@ p{
 
 
 
-/*1.PRESENTATION*/
+/*======SECTION 1======*/
 #Title1, #Title2{
     font-family: 'Montserrat';
     font-weight: 800;
@@ -201,31 +194,33 @@ hr{
     color: #555555;
     font-weight: 600;
 }
-/*2.ACHETER OU LOUER*/
+/*======SECTION 2======*/
 
 .bgAouL{
     background-image: url(/images/horizon.jpg);
-    height: 650px;
+    min-height: 700px;
     background-size:cover;
     background-repeat: no-repeat;
     font-size: small;
-    background-position: 100%;
+    
 }
 
-#article1{
+.box {
+    max-width: 635px;
+    min-height: 365.25px;
+    margin: 10px; /* Marge entre les boîtes */
+}
+
+#article1 .box{
     background-color: var(--Jaune);
     opacity: 88%;
-    
-    
-       
-    
+      
 }
 
-#article2{
+#article2 .box{
     background-color:var(--Rouge);
     opacity: 88%;
     
-   
 }
 
 #article1 h4, #article2 h4{
@@ -241,11 +236,11 @@ hr{
     font-size: small;
 }
 
-/*3.Véhicules récents*/
+/*======SECTION 3======*/
 
 .bgVr{
     background-color: var(--Noir);
-    height: 700px;
+    min-height: 700px;
 }
 
 .titre3{
@@ -262,7 +257,6 @@ hr{
 }
 
 
-
 .card1, .card2, .card3, .card-img-top{
     border-radius: 0%;
     border: none;
@@ -275,8 +269,6 @@ hr{
     font-size: small;
     font-weight:normal;
     padding-left: 9px;
-   
-    
 }
 
 .card-body{
@@ -295,7 +287,6 @@ hr{
     padding-left: 4px;
     width: 90px;
     
-    
 }
 
 .card-body h6{
@@ -312,10 +303,10 @@ hr{
     
 }
 
-/*4.Pourquoi nous choisir ?*/
+/*======SECTION 4======*/
 .iconePnc{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .partie4 h4{
@@ -353,20 +344,19 @@ hr{
     align-items: center;
 }
 
-/*5.Club auto*/
+/*======SECTION 5======*/
 .bg-image{
     background-image: url(/images/vehicule3.jpg);
-    height: 650px;
+    min-height: 650px;
     background-repeat: no-repeat;
     background-size:cover;
-    
 }
 
 .prez{
     background-color: var(--Jaune);
     opacity: 88%;
-    margin-top: 100px;
-    
+    margin-top: 90px;
+      
     
 }
 
@@ -387,11 +377,11 @@ hr{
     
 }
 
-/*6.Footer*/
+/*====== FOOTER ======*/
 .footer{
-    height: 150px;
+    min-height: 150px;
     background-color: var(--Noir);
-    margin-bottom: 0px;
+    
 }
 
 .blocF1 h6{
@@ -478,8 +468,7 @@ hr{
 }
 
 .hrFooter{
-    width: 1020px;
-    margin-left: 120px;
+    
     
 }
 
