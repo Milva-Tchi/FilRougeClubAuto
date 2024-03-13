@@ -85,8 +85,10 @@ p{
 
 
 .bgNav{
+    width: 100%;
+    min-height: 90vh;
     background-image: url(/images/vehicule1.jpg);
-    height: 650px;
+    
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -97,7 +99,6 @@ p{
     font-family: 'Montserrat';
     font-size: small;
     text-transform:uppercase;
-    display: flex;
     background-color: #eceff3c9;  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
