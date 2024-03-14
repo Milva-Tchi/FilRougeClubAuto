@@ -11,6 +11,8 @@
     --Bleu: #6C98E1;
 }
 
+/*====== INDEX.HTML ======*/
+
 /*====== TOP BAR ======*/
 #Header{
     min-height: 120px;
@@ -48,8 +50,6 @@ p{
    
 }
 
-
-    
 #Adr, #Tél, #Ouv, #Hor{
     color: var(--Orange);
     text-transform: uppercase;
@@ -80,15 +80,13 @@ p{
 
 #Ouv, #Hor{
  font-size: xx-small;   
- 
 }
 
 
 .bgNav{
     width: 100%;
     min-height: 90vh;
-    background-image: url(/images/vehicule1.jpg);
-    
+    background-image: url(/images/vehicule1.jpg);   
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -109,27 +107,28 @@ p{
     color: #232628;
 }
 
-.nav-item .nav-link:hover{
-    color: var(--Blanc);
+.nav-item:hover {
     background-color: var(--Orange);
 }
 
+.nav-item:hover a{
+    color: var(--Blanc);
+}
 
 
 .navbar-toggler{
     border: none;
     
-}
-
-.navbar-toggler-icon .navbar-toggler:focus{
-    outline: none !important;
     
 }
 
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus{/**/
+    outline: none;
+    box-shadow: none;
+} 
 
 #footer1{
-    height: 120px;
-    
+    height: 120px;    
     background-color: var(--Noir);
     text-transform: uppercase;
     font-size: small;
@@ -477,5 +476,61 @@ hr{
 
     background-color: #393d40;
     border-radius: 0%;
+}
 
+/*====== CONTACT.HTML ======*/
+
+.bg1{
+    min-width: 100vh;
+    background-image: url(/images/vehicule3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+
+.cont{
+    background-color: var(--Blanc);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 1500;
+    
+}
+
+.form-group label {
+    font-family: 'open sans';
+}
+
+.form-group input{
+    font-family: 'open sans';
+    background-color: #eceff3c9;
+    border-radius: 0%;
+    border: none;
+
+}
+
+.form-group textarea{
+    font-family: 'open sans';
+    background-color: #eceff3c9;
+    border-radius: 0%;
+    border: none;
+}
+
+.b{
+    background-color: #6c98df ;
+    color: var(--Blanc);
+    border-radius: 5%;
+    border: none;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 130px;
+    height: 40px;
+   
 }
